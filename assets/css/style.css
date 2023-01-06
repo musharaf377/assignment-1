@@ -108,3 +108,94 @@ body{
     font-weight: 600;
     color:#F15B22;
 }
+
+/* footer area styles 1*/
+#footer-area{
+    background-color: #151414;
+    padding: 130px 0px;
+}
+
+.footer-wrapper {
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.footer-content {
+    max-width: 485px;
+}
+
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+    color:#fff;
+}
+
+.footer-description {
+    padding: 16px 0 24px;
+    color: #fff;
+}
+
+.contact-address p {
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.social-item a {
+    width: 47px;
+    height: 47px;
+    background: #fff;
+    display: inline-block;
+    line-height: 47px;
+    text-align: center;
+    border-radius: 501%;
+    font-size: 21px;
+    margin-right: 17px;
+}
+
+.facebook {
+    color: #006AFF;
+}
+
+.twitter{
+    color:#1DA1F2;
+}
+
+.youtube{
+    color:#FF0000;
+}
+
+.footer-newslatter {
+    max-width: 325px;
+    width: 100%;
+}
+
+.newslatter-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 31px;
+    color:#fff;
+}
+
+.newslatter-form input[type="text"] {
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    outline: none;
+    display: block;
+    background-color: transparent;
+    color: #fff;
+    width: 100%;
+}
+.newslatter-form input[type="text"]::plaholder{
+    color:#fff;
+}
+.newslatter-form input[type="submit"] {
+    padding: 20px 36px;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    margin-top: 16px;
+}
