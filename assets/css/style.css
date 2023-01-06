@@ -64,30 +64,30 @@ body{
 }
 
 
-/* Expreance area styles */
-.expreance-wrapper {
+/* Experience area styles */
+.experience-wrapper {
     display: flex;
     align-items: center;
     gap: 87px;
     padding: 130px 0px;
 }
 
-.expreance-content h2 {
+.experience-content h2 {
     font-size: 40px;
     font-weight: 700;
     color:#151414;
 }
 
-.expreance-content p{
+.experience-content p{
     padding-bottom: 16px;
     padding-top: 24px;
 }
 
-.expreance-list ul li {
+.experience-list ul li {
     list-style: none;
 }
 
-.expreance-list ul li i {
+.experience-list ul li i {
     margin-right: 10px;
     color: #16D887;
     margin-bottom: 8px;
