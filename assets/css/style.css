@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 *{
     margin:0;
@@ -7,7 +6,9 @@
 }
 
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #444343;
 }
 
 .container{
@@ -17,3 +18,38 @@ body{
     width: 100%;
 }
 
+/* Header area styles */
+#header-area{
+    background-image: url('/assets/image/banner2.png');
+    height:100vh;
+}
+
+
+/* Expreance area styles */
+.expreance-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 87px;
+    padding: 130px 0px;
+}
+
+.expreance-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color:#151414;
+}
+
+.expreance-content p{
+    padding-bottom: 16px;
+    padding-top: 24px;
+}
+
+.expreance-list ul li {
+    list-style: none;
+}
+
+.expreance-list ul li i {
+    margin-right: 10px;
+    color: #16D887;
+    margin-bottom: 8px;
+}
