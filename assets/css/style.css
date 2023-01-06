@@ -66,7 +66,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 0px;
+    padding-top: 50px;
 }
 .single-item{
     text-align: center;
@@ -76,4 +76,35 @@ body{
     font-size:25px;
     font-weight: 700;
     margin: 12px 0px 16px;
+}
+
+/* CTA area styles */
+#cta-area{
+    padding:130px 0px;
+}
+
+.cta-wrapper {
+    background: linear-gradient(90deg, #f15b22bf 10%, #f15d2200 100%), url(../image/watch.png) no-repeat left top;
+    padding: 59px 64px;
+}
+
+.cta-content {
+    max-width: 459px;
+}
+
+.cta-content h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+.cta-btn {
+    padding: 20px 36px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    color:#F15B22;
 }
