@@ -53,3 +53,27 @@ body{
     color: #16D887;
     margin-bottom: 8px;
 }
+
+/* plans area styles */
+.plan-section-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+
+.plan-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.single-item{
+    text-align: center;
+}
+
+.single-item h3{
+    font-size:25px;
+    font-weight: 700;
+    margin: 12px 0px 16px;
+}
