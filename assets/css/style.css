@@ -61,6 +61,7 @@ body{
     border: none;
     outline: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 
@@ -274,7 +275,7 @@ body{
     color: #fff;
     width: 100%;
 }
-.newslatter-form input[type="text"]::plaholder{
+.newslatter-form input[type="text"]::placeholder{
     color:#fff;
 }
 .newslatter-form input[type="submit"] {
