@@ -147,6 +147,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     color:#F15B22;
+    cursor: pointer;
 }
 
 /* blog area styles */
@@ -286,4 +287,5 @@ body{
     font-weight: 600;
     color: #F15B22;
     margin-top: 16px;
+    cursor: pointer;
 }
